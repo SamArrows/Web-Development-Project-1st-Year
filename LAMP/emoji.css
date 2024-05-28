@@ -1,0 +1,21 @@
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+}
+.background{
+    position: relative;
+    top: 0;
+    left: 0; 
+    width: 70%;
+    height: 70%;
+}
+.foreground {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 70%;
+    height: 70%;
+}

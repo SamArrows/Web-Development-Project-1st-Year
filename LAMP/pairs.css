@@ -1,0 +1,97 @@
+.card {
+    perspective: 1000px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card.is-flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.flip-card-front {
+    background: url("cardBack.png");
+    background-size: 100% 100%;
+}
+.flip-card-back {
+    transform: rotateY(180deg);
+    background-color: aqua;
+}
+.Row {
+    display: table;
+    width: 100%;
+    height: 40%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+.Column {
+    display: table-cell;
+}
+#game {
+    background-color: gray;
+    box-shadow: 5px 5px rgba(0,0,0,0.2);
+    position: relative;
+}
+.parent {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 50%;
+    height: 50%;
+}
+.info {
+    text-align: center;
+    padding: 5px;
+    font-size : 12px; 
+    font-family : Verdana; 
+    font-weight: bold; 
+}
+#start {
+    background-color: rgb(226, 223, 43); 
+}
+.card-center {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+
+    transform: translateY(50%);
+    top: 5%;
+}
+.btn {
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    width: 15%;
+    transform: translateY(-50%);
+    top: 50%;
+    align-items: center;
+    font-size : 12px; 
+    font-family : Verdana; 
+    font-weight: bold; 
+    border-radius: 1px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#btnSubmit {
+    background-color: rgb(58, 226, 43);
+    transform: translateY(90%);
+    top: 10%;
+}
+#playAgain {
+    background-color: chocolate;
+}

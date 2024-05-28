@@ -1,0 +1,104 @@
+form {
+    width: 50%;
+    height: 70%;
+    align-content: center;
+    background-color: blue;
+    padding: 1%;
+}
+.selected {
+    border: thick solid #FFFF00;
+}
+.eyes, .mouth, .skin {
+    width: 10%;
+    height: 10%;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#btnSubmit, #validateForm {
+    align-items: center;
+    font-size : 12px; 
+    font-family : Verdana; 
+    font-weight: bold; 
+    background-color: blueviolet; 
+    border-radius: 1px; 
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#closed { 
+    background: url("/emoji assets/eyes/closed.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#laughing{
+    background: url("/emoji assets/eyes/laughing.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#long{
+    background: url("/emoji assets/eyes/long.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#normal{
+    background: url("/emoji assets/eyes/normal.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#rolling{
+    background: url("/emoji assets/eyes/rolling.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#winking{
+    background: url("/emoji assets/eyes/winking.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#open{
+    background: url("/emoji assets/mouth/open.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#sad{
+    background: url("/emoji assets/mouth/sad.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#smiling{
+    background: url("/emoji assets/mouth/smiling.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#straight{
+    background: url("/emoji assets/mouth/straight.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#surprise{
+    background: url("/emoji assets/mouth/surprise.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#teeth{
+    background: url("/emoji assets/mouth/teeth.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#green{
+    background: url("/emoji assets/skin/green.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#red{
+    background: url("/emoji assets/skin/red.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#yellow{
+    background: url("/emoji assets/skin/yellow.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
