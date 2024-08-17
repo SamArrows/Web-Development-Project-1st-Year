@@ -15,4 +15,3 @@ Pairs
 Leaderboard 
 -shows all games played with usernames, totals and individual level scores in comma-separated lists. 
 -Scores calculation explained in comments of lines 9-12 in pairs.js
-http://ml-lab-4d78f073-aa49-4f0e-bce2-31e5254052c7.ukwest.cloudapp.azure.com:51568/index.php
